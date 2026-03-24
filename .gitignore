@@ -1,0 +1,24 @@
+# Ignore Windows and editor noise
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Ignore Office lock and recovery artifacts
+~$*.xls*
+~$*.xla*
+*.tmp
+*.temp
+*.bak
+*.wbk
+*.xlk
+
+# Ignore local output or scratch areas
+out/
+dist/
+build/
+.tmp/
+local/
+
+# Ignore common logs
+*.log
